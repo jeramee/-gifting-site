@@ -4,6 +4,10 @@ color: lightcoral;
 
 }
 
+body {
+    margin: 0;
+}
+
 .menu {
 
     background-color: #0a74d0;
