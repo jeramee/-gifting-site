@@ -81,3 +81,11 @@ body {
     display: table;
     margin: auto;
 }
+
+.grayscale {
+
+    background-color: lightgray;
+    height: 40%;
+}
+
+/* NEED TO COME BACK TO THE GRAYSCALE THING*/
