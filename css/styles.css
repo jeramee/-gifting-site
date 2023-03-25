@@ -17,7 +17,7 @@ body {
 
 .navbar nav{
 
-    padding-left: 5%;
+    padding-left: 1%;
     padding-right: 0;
     float: right;
 }
@@ -85,7 +85,12 @@ body {
 .grayscale {
 
     background-color: lightgray;
-    height: 40%;
+    min-height: 100%;
 }
 
 /* NEED TO COME BACK TO THE GRAYSCALE THING*/
+
+.btnsub {
+    float: right;
+}
+
