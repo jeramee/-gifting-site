@@ -61,6 +61,54 @@
 
 rotating images of items -  size dependent on window size-->
 
+<!--
+
+We do we want and what do we know
+
+4 items, will be an array, with buttons under them for adding to the list.
+
+The array will be objects, probably some kind of JSON object, from amazon, with data
+
+Inside each column will be the data, with a button below it that will open either a modal or a popover to add to a list.
+
+The lists will be stored in the database, per user...somehow.
+
+Probably by storing the account ID in the session state, and then querying the database based on that?
+
+
+-->
+
+
+<div class="container-sm text-center">
+
+  <div class="row">
+
+    <div class="col" id="item1">
+
+    </div>
+
+    <div class="col" id="item2">
+
+
+    </div>
+
+    <div class="col" id="item3">
+
+
+    </div>
+
+    <div class="col" id="item4">
+
+
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
 
   <!--footer here-->
   <div class="container-fluid footer">
@@ -81,6 +129,10 @@ rotating images of items -  size dependent on window size-->
 
   </div>
 
-  <script src="js/main.js"></script>
+  <script>
+
+  sessionStorage.setItem("boo", "true");
+
+  </script>
 </body>
 </html>
