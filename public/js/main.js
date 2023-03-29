@@ -10,10 +10,10 @@
 //const port = 5000;
 
 // Static Files
-main.use('/', this.static('public'));
-main.use('/css', this.static(__dirname + 'public/css'));
-main.use('/img', this.static(__dirname + 'public/img'));
-main.use('/js', this.static(__dirname + 'public/js'));
+use('/', this.static('public'));
+use('/css', this.static(__dirname + 'public/css'));
+use('/img', this.static(__dirname + 'public/img'));
+use('/js', this.static(__dirname + 'public/js'));
 
 // main.use(express.static(__dirname + 'public/css'));
 // main.use('/img', express.static(__dirname + 'public/img'));
