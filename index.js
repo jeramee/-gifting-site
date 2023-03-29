@@ -1,6 +1,3 @@
-<script type="text/javascript">
-<!--
-
 document.write( '<!doctype html>\n' );
 document.write( '\n' );
 document.write( '<html lang=\"en\">\n' );
@@ -140,5 +137,3 @@ document.write( '  </script>\n' );
 document.write( '</body>\n' );
 document.write( '</html>' );
 
-//-->
-</script>
