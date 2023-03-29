@@ -13,6 +13,10 @@
   <meta property="og:type" content="website">
   <meta property="og:description" content="A site for helping pick out gifts for your friends.">
 
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="account icon" href="/acct.png">
+
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
