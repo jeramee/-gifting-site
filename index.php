@@ -15,7 +15,7 @@
 
   <link rel="icon" href="images/favicon.ico">
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
-  <link rel="account icon" href="/acct.png">
+  <link rel="account icon" href="images/acct.png">
 
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
