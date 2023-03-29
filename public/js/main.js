@@ -1,23 +1,25 @@
-import express from 'express'
-import bodyParser from 'body-parser'
+// Language: JavaScript
 
-const express = require('express')
-const bodyParser = require('body-parser')
+import express from "express";
+import bodyParser from "body-parser";
 
-const main = express()
-const port = 5000
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const main = express();
+const port = 5000;
 
 // Static Files
-main.use(express.static('public'))
-main.use('/css', express.static(__dirname + 'public/css'))
-main.use('/img', express.static(__dirname + 'public/img'))
-main.use('/js', express.static(__dirname + 'public/js'))
+main.use(express.static('public'));
+main.use('/css', express.static(__dirname + 'public/css'));
+main.use('/img', express.static(__dirname + 'public/img'));
+main.use('/js', express.static(__dirname + 'public/js'));
 
 // Templating Engine
 // app.set('views', './src/views')
 // app.set('view engine', 'ejs')
 
-main.use(bodyParser.urlencoded({ extended: true }))
+main.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes
 // const newsRouter = require('./src/routes/news')
@@ -26,7 +28,7 @@ main.use(bodyParser.urlencoded({ extended: true }))
 // app.use('/article', newsRouter)
 
 // Listen on port 5000
-main.listen(process.env.PORT || port, () => console.log(`Listening on port ${port}`))
+main.listen(process.env.PORT || port, () => console.log(`Listening on port ${port}`));
 
 
 
