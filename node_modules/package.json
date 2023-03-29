@@ -1,11 +1,11 @@
 {
   "name": "gifting-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "A site that offers gift ideas for friends and family",
   "main": "index.php",
   "scripts": {
-    "start": "node app.js",
-    "devStart": "nodemon app.js",
+    "start": "node public/js/.js",
+    "devStart": "nodemon public/js/.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
