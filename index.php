@@ -28,7 +28,7 @@
 
   <!-- Nav menu here-->
 <div class="container-fluid navbar" height="80px">
-<a href="index.php" class="logo"><img src="logo.png" height="80px" width="324px"></a>
+<a href="index.php" class="logo"><img src="images/logo.png" height="80px" width="324px"></a>
 
 <nav id="mainnav">
 
