@@ -4,10 +4,10 @@
 // import bodyParser from "body-parser"; // dont think I need this
 
 //const express = require('express');
-const bodyParser = require('body-parser');
+//const bodyParser = require('body-parser');
 
 //const main = express();
-const port = 5000;
+//const port = 5000;
 
 // Static Files
 main.use('/', this.static('public'));
@@ -23,7 +23,7 @@ main.use('/js', this.static(__dirname + 'public/js'));
 // app.set('views', './src/views')
 // app.set('view engine', 'ejs')
 
-main.use(bodyParser.urlencoded({ extended: true }));
+//main.use(bodyParser.urlencoded({ extended: true }));
 
 // Routes
 // const newsRouter = require('./src/routes/news')
@@ -32,7 +32,7 @@ main.use(bodyParser.urlencoded({ extended: true }));
 // app.use('/article', newsRouter)
 
 // Listen on port 5000
-main.listen(process.env.PORT || port, () => console.log(`Listening on port ${port}`));
+//main.listen(process.env.PORT || port, () => console.log(`Listening on port ${port}`));
 
 
 
