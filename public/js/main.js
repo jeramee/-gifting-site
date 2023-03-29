@@ -1,16 +1,16 @@
 // Language: JavaScript
 
-import express from "express";
+//import express from "express";
 import bodyParser from "body-parser";
 
-const express = require('express');
+//const express = require('express');
 const bodyParser = require('body-parser');
 
-const main = express();
+//const main = express();
 const port = 5000;
 
 // Static Files
-main.use(express.static('public'));
+//main.use(express.static('public'));
 main.use('/css', express.static(__dirname + 'public/css'));
 main.use('/img', express.static(__dirname + 'public/img'));
 main.use('/js', express.static(__dirname + 'public/js'));
