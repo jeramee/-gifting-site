@@ -1,1 +1,1 @@
-web: node ./public/js/main.js
+web: node index.js
